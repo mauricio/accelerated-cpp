@@ -38,3 +38,7 @@ double grade(double midterm, double final, const vector<double>& hw)
 double grade( const StudentInfo& s ) {
   return grade(s.midterm, s.final, s.homework);
 }
+
+bool fgrade(const StudentInfo& s) {
+  return grade(s) < 60;
+}

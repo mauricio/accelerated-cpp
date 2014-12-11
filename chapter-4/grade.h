@@ -8,5 +8,6 @@ double grade( const StudentInfo& s );
 double grade(double midterm, double final, double homework);
 double grade(double midterm, double final, const std::vector<double>& hw);
 double median(std::vector<double> vec);
+bool fgrade(const StudentInfo& s);
 
 #endif
